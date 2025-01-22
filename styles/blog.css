@@ -29,7 +29,7 @@ body{
   align-items: center;
 }
 .logo-title h2{
-  color: #000;
+  color: rgb(0, 0, 0);;
   padding-left: 10px;
   font-size: 32px;
   font-weight: 700;
@@ -52,25 +52,25 @@ body{
 .button1 a{
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  background-color: #FEA301;
+  color: rgb(255, 255, 255);
+  background-color: rgb(240, 170, 0);
   font-size: 20px;
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 12px;
 }
 .list1{
-  color: #FEA301;
+  color: rgb(254, 163, 1);
 }
 .list2{
-  color: #01ACFD;
+  color: rgb(1, 172, 253);
 }
 .list3{
-  color: #05D4DF;
+  color: rgb(5, 212, 223);
   
 }
 .list4{
-  color: #5D58EF;
+  color: rgb(93, 88, 239);
 }
 /* header end */
 
@@ -91,8 +91,8 @@ body{
 .hero_content a{
   text-decoration: none;
   display: inline-block;
-  color: #fff;
-  background-color: black;
+  color: rgb(255, 255, 255);
+  background-color:rgb(17, 17, 17);
   font-weight: 700;
   font-size: 20px;
   padding: 10px 30px;
@@ -103,10 +103,148 @@ body{
   text-align: right;
 }
 .banner-content{
-  color: #000;
+  color: rgb(17, 17, 17);
   font-size: 20px;
   font-weight: 400;
   line-height: auto;
   padding: 20px 0;
 }
 /* banner end */
+/* Standard curriculum start */
+.standard-curriculum{
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: top, center;
+  padding: 80px 0;
+}
+.sc-heading{
+  color: rgb(0, 0, 0);;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.curriculum-heading h2{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.curriculum_box{
+  justify-content: space-between;
+  gap: 60px;
+}
+/* box1 */
+.sc_box1{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(222, 245, 255));
+  border-radius: 18px;
+  border: 1px solid rgb(222, 245, 255);
+}
+.sc_box1 h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.sc_box1 p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(128, 128, 128);
+}
+.sc_box1 a{
+  color: rgb(100, 200, 255);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* box2 */
+.sc_box2{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(255, 244, 220));
+  border-radius: 18px;
+  border: 1px solid rgb(255, 244, 220);
+}
+.sc_box2 h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.sc_box2 p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(128, 128, 128);
+}
+.sc_box2 a{
+  color: rgb(240, 170, 0);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sc_box3{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(238, 225, 255));
+  border-radius: 18px;
+  border: 1px solid rgb(242, 232, 255);
+}
+.sc_box3 h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.sc_box3 p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(128, 128, 128);
+}
+.sc_box3 a{
+  color: rgb(135, 0, 255);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.curriculum-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.arrow-btn {
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+}
+/* Standard curriculum end */
+
+/* responsive media query */
+
+
+
+
+
+
