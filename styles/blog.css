@@ -486,6 +486,14 @@ body{
     border-bottom: 1px solid rgb(254, 163, 1);
     display: inline-block;
   }
+.banner{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  margin: 20px;
+  padding: 0px 20px;
+}
 .para{
   width: 400px;
   height: 120px;
@@ -497,7 +505,30 @@ body{
   font-size: 12px;
   padding: 10px;
 }
-
+.blog_card2, .blog_card3{
+  display: flex;
+}
+.blog_card4, .blog_card5{
+  display: flex;
+}
+.standard-curriculum{
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: top, center;
+}
+.curriculum-heading{
+  text-align: left;
+  justify-content: flex-start;
+}
+.curriculum_box{
+width: 357px;
+height: 321.28px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 22px;
+padding: 40px 28px 36px 40px;
+}
 .blog_card3 a{
   font-size: 12px;
   padding: 10px;
@@ -511,7 +542,7 @@ body{
   padding: 10px;
 }
 .blog_article{
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 .blog_heading{
@@ -527,8 +558,11 @@ body{
   display: none;
 }
 .footer{
-    flex-direction: column;
-    padding: 0px 20px;
+  margin-top: 40px;
+  gap: 40px;
+  margin:20px;
+  flex-direction: column;
+  padding: 0px 20px;
 }
 .footer_logo{
     width: 100%;
@@ -546,9 +580,7 @@ body{
     padding: 7px 0;
 }
 .footer_social h4{
-   
-    padding: 7px 0;
-
+  padding: 7px 0;
 }
 .social-links{
     width: 100%;
